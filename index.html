@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5"/>
+    <link rel="icon" href="images/devchallenges.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="https://devchallenges.io/"/>
+    <title>Devchallenges</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/766c25c2d0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+
+    <main class="main">
+      <div class="main-2">    
+        <h1 class="shop__title">Checkout</h1>
+        <div class="main__contenedor">
+          <div class="main__container">
+            <div class="main__container--shop">
+              <section class="section__shop--content grid-2">
+                  <div class="card__container grid-2">
+                    <div class="card__content">
+                      <img src="images/photo1.png" alt="" class="img__product">
+                      <div class="product__info">
+                        <div class="info__product--content">
+                          <h4 class="title__product">Vintage Backbag</h4>
+                          <div class="info__price--container">
+                            <p class="price__product--ofert">$<span class="span__price">54.99</span></p>
+                            <p class="price__product">$94.99</p>
+                          </div>
+                        </div>
+                        <div class="cantidad__container">
+                          <span class="span__title">Cantidad:</span>
+                          <select name="cantidad" id="cantidad" class="select__cantidad">
+                            <option value="1" class="cant-option">1</option>
+                            <option value="2" class="cant-option">2</option>
+                            <option value="3" class="cant-option">3</option>
+                            <option value="4" class="cant-option">4</option>
+                            <option value="5" class="cant-option">5</option>
+                            <option value="6" class="cant-option">6</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card__content">
+                      <img src="images/photo2.png" alt="" class="img__product">
+                      <div class="product__info">
+                        <div class="info__product--content">
+                          <h4 class="title__product">Levi Shoes</h4>
+                          <div class="info__price--container">
+                            <p class="price__product--ofert">$<span class="span__price">74.99</span></p>
+                            <p class="price__product">$124.99</p>
+                          </div>
+                        </div>
+                        <div class="cantidad__container">
+                          <span class="span__title">Cantidad:</span>
+                          <select name="cantidad" id="cantidad" class="select__cantidad">
+                            <option value="1" class="cant-option">1</option>
+                            <option value="2" class="cant-option">2</option>
+                            <option value="3" class="cant-option">3</option>
+                            <option value="4" class="cant-option">4</option>
+                            <option value="5" class="cant-option">5</option>
+                            <option value="6" class="cant-option">6</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+      
+                    <div class="card__total">
+                      <div class="shipping">
+                        <h3 class="shipping__title">Shipping</h3>
+                        <p class="shipping__price">$ <span class="span__shipping">19</span></p>
+                      </div>
+                      <div class="total">
+                        <h3 class="total__title">Total</h3>
+                        <p class="total__price">$<span class="span__total">148.98</span></p>
+                      </div>
+                    </div>
+                  </div>
+              </section>
+            </div>
+          </div>
+          <div class="form__container">
+            <div class="form__contact--container">
+              <form action="" class="form__content grid-3">
+                <div class="contact__information grid-1">
+                  <h3 class="contact__title">Contact information</h3>
+                  <div class="from__input">
+                    <label for="email" class="labels">E-mail</label>
+                    <div class="input__content">
+                      <div class="input">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="text" class="input__original" placeholder="Enter your email..." required>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="from__input">
+                    <label for="phone" class="labels">Phone</label>
+                    <div class="input__content">
+                      <div class="input">
+                        <i class="fa-solid fa-phone"></i>
+                        <input type="number" class="input__original" placeholder="Enter your phone..." required>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="shipping__address grid-1">
+                  <h3 class="addres__title">Shipping Address</h3>
+                  <div class="from__input">
+                    <label for="name" class="labels">Full name</label>
+                    <div class="input__content">
+                      <div class="input">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" class="input__original" placeholder="Your name..." required>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="from__input">
+                    <label for="name" class="labels">Addres</label>
+                    <div class="input__content">
+                      <div class="input">
+                        <i class="fa-solid fa-house"></i>
+                        <input type="text" class="input__original" placeholder="Your address..." required>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="from__input">
+                    <label for="name" class="labels">City</label>
+                    <div class="input__content">
+                      <div class="input">
+                        <i class="fa-solid fa-city"></i>
+                        <input type="text" class="input__original" placeholder="Your city..." required>
+                      </div>
+                    </div>
+                  </div>
+    
+                  <div class="form__input--container">
+                    <div class="from__input">
+                      <label for="name" class="labels">Country</label>
+                      <div class="input__content">
+                        <div class="input">
+                          <i class="fa-solid fa-globe"></i>
+                          <select name="country" id="country" class="country__select">
+                            <option value="">Your country...</option>
+                            <option value="">Argentina</option>
+                            <option value="">Alemania</option>
+                            <option value="">Brasil</option>
+                            <option value="">Burgaria</option>
+                            <option value="">Colombia</option>
+                            <option value="">Chile</option>
+                            <option value="">Dinamarca</option>
+                            <option value="">Francia</option>
+                            <option value="">Uruguay</option>
+                            <option value="">Grecia</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="from__input">
+                      <label for="name" class="labels">Postal code</label>
+                      <div class="input__content">
+                        <div class="input">
+                          <i class="fa-solid fa-folder-open"></i>
+                          <input type="number" class="input__original" placeholder="Your postal code..." required>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+    
+                  <div class="from__input">
+                    <input type="checkbox" name="decisiton" id="decisiton">
+                    <label for="name" class="labels">Save this information for nex time</label>
+                  </div>
+    
+                  <input type="submit" value="Continue" class="btn btn__continuar">
+                  
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+
+    <script src="scirpt.js"></script>
+  </body>
+</html>
